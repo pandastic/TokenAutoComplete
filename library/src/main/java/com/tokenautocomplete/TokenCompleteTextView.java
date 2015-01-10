@@ -524,7 +524,7 @@ public abstract class TokenCompleteTextView extends MultiAutoCompleteTextView im
 
 
         } else {
-            setSingleLine(false);
+            setSingleLine(true);
             Editable text = getText();
             if (text != null) {
                 CountSpan[] counts = text.getSpans(0, text.length(), CountSpan.class);
